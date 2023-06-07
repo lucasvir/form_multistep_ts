@@ -18,9 +18,11 @@ export const Container = styled.button`
 
   text-transform: uppercase;
 
+
   &:hover {
     filter: none;
     background-color: ${({ theme }) => theme.COLORS.PURPLE_LIGHT};
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
 
   .ghost {
